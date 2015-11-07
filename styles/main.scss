@@ -1,0 +1,128 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+$accent-color: #D13B42;
+
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+body {
+    font-family: 'Droid Serif', serif;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+img { max-width: 100%; }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+  color: $accent-color;
+  &:hover {
+    color: $accent-color;
+    text-decoration: underline;
+  } &:active {
+    color: $accent-color;
+  }
+}
+
+.accent {
+  color: $accent-color;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    color: #333;
+    text-align: center;
+}
+
+.nav-links {
+  padding: 20px 0 20px 0;
+  margin: 10px 0;
+  text-align: center;
+  a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    margin-left: 10px;
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  } 
+}
+
+.landing {
+  margin: 40px 0;
+}
+
+.newsletter {
+  padding: 15px;
+  margin: 0 40px;
+  #mc_embed_signup {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    .btn {
+      background: $accent-color;
+      text-transform: uppercase;
+      color: #FFF;
+    }
+  }
+}
+
+
+.blurb {
+  text-align: center;
+    h2 {
+      margin: 15px 0;
+      padding: 20px 0;
+      font-family: 'Droid Serif', serif;
+      font-size: 24px;
+      text-transform: none;
+      color: #888;
+    }
+    border-top: 2px solid #888;
+    border-bottom: 2px solid #888;
+}
+
+.interview {
+  margin: 20px 0;
+  .byline {
+    margin: 20px 0;
+  }
+  .content {
+
+    margin: 10px 0;
+    .question {
+      padding-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.footer {
+  margin: 20px 0 5px 0;
+  padding: 5px;
+  text-align: right;
+}
+
+  
