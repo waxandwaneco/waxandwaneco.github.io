@@ -4479,12 +4479,21 @@ a {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+
 .logo {
   color: #333;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
   .logo a {
     color: #333;
   }
+  .logo a:hover {
+    text-decoration: none;
+  }
+  .logo span {
+  font-color: #bc4979;
+}
+
 
 .nav-links {
   padding: 20px 0 20px 0;
@@ -4500,29 +4509,41 @@ a {
       color: #D13B42;
       text-decoration: none; }
 
-.landing {
-  margin: 40px 0; }
-
-.landing-copy {
-  margin-top: 40px;
-}
+/*.landing {
+  margin: 40px 0; }*/
 
 .newsletter {
-  
   margin: 0 40px; }
   .newsletter #mc_embed_signup .order {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #333; }
-    .newsletter #mc_embed_signup .btn .order {
-      background: #D13B42;
-      text-transform: uppercase;
-      color: #FFF; }
+    /*.newsletter #mc_embed_signup */
+
+.order {
+  margin-top: 2%;
+  width: 100%;
+  padding: 5% 0;
+  background: #bc4979;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #FFF; 
+}
+
+.order:hover {
+  background: #af406e;
+  text-transform: uppercase;
+  color: #FFF; 
+}
+
+.product {
+  margin: 5% 0;
+}
 
 .blurb {
   text-align: center;
   border-top: 2px solid #888;
-  border-bottom: 2px solid #888; }
+  /*border-bottom: 2px solid #888;*/ }
   .blurb h2 {
     margin: 15px 0;
     padding: 20px 0;
@@ -4551,4 +4572,4 @@ a {
 .footer {
   margin: 20px 0 5px 0;
   padding: 5px;
-  text-align: right; }
+  text-align: center; }
