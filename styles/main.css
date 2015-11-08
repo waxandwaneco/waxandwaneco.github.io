@@ -4454,8 +4454,8 @@ button.close {
 
 body {
   font-family: 'Lato', sans-serif;
-  line-height: 1.2;
-  font-size: 18px; }
+  line-height: 1.4;
+  font-size: 17px; }
 
 img {
   max-width: 100%; }
@@ -4503,14 +4503,18 @@ a {
 .landing {
   margin: 40px 0; }
 
+.landing-copy {
+  margin-top: 40px;
+}
+
 .newsletter {
   
   margin: 0 40px; }
-  .newsletter #mc_embed_signup {
+  .newsletter #mc_embed_signup .order {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #333; }
-    .newsletter #mc_embed_signup .btn {
+    .newsletter #mc_embed_signup .btn .order {
       background: #D13B42;
       text-transform: uppercase;
       color: #FFF; }
