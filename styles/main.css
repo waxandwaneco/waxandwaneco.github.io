@@ -4514,11 +4514,10 @@ a {
 
 .newsletter {
   margin: 0 40px; }
-  .newsletter #mc_embed_signup .order {
+  .newsletter  .order {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #333; }
-    /*.newsletter #mc_embed_signup */
+    color: #FFF; }
 
 .order {
   margin-top: 2%;
@@ -4534,6 +4533,10 @@ a {
   background: #af406e;
   text-transform: uppercase;
   color: #FFF; 
+}
+
+.btn {
+  color: #FFF;
 }
 
 .product {
