@@ -4514,11 +4514,10 @@ a {
 
 .newsletter {
   margin: 0 40px; }
-  .newsletter #mc_embed_signup .order {
+  .newsletter  .order {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #333; }
-    /*.newsletter #mc_embed_signup */
 
 .order {
   margin-top: 2%;
@@ -4535,6 +4534,49 @@ a {
   text-transform: uppercase;
   color: #FFF; 
 }
+  
+.form-control {
+  border-color: #bc4979;
+  background: #FFF;
+  color: #bc4979;
+  padding: 15px 16px;
+}
+
+.form-control:focus {
+  border-color: #bc4979;
+  box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #bc4979;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #bc4979  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #bc4979;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #bc4979  
+}
+
+.subscribe {
+  background: #bc4979;
+  color: #FFF;
+  border: 2px solid #FFF;
+  font-size: 16px;
+  padding: 10px 11px;
+}
+
+.subscribe:hover {
+  background: #FFF;
+  color: #bc4979;
+  border: 1px solid #bc4979;
+}
+
 
 .product {
   margin: 5% 0;
